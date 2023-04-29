@@ -65,10 +65,6 @@ class Autor {
     return db('livros')
       .where({ autor_id: autorId });
   }
-  static async pegaLivrosPorId(nacionalidade) {
-    return db('livros')
-      .where({ autor_id: autorId });
-  }
 }
 
 export default Autor;
